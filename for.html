@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        /*
+        document.writeln()
+        // for (inicialización; condición; incremento)
+        for (var i= 1; i <= 10; i++) {
+            document.writeln("5 x " + i + " = " + 5 * i + "<br>");
+        }
+
+        var numero = 2;
+        var multiplicador = 1;
+        var resultado;
+        document.writeln("Tabla del 2: <br>");
+
+        while (multiplicador <= 10) {
+            resultado = 2 * multiplicador; //el resultado en cada iteración multiplicará
+            document.writeln(numero + " x " + multiplicador + " = " + resultado);
+            document.writeln("<br>");
+            //multiplicador++;
+            multiplicador = multiplicador + 1;
+            //multiplicador += 1;
+        }
+        */
+
+        var contador = 1; //inicialización
+        while ( contador <= 7 ) //bucle while
+        {
+            document.writeln( "<p style= \"font-size: "
+            + contador + "ex\">HTML fuente " + contador +
+            "ex<p/>" );
+            contador++; // incremento del contador
+        } // fin while
+        // -->
+        
+        for (var tamaño = 1; tamaño <= 6; tamaño++) {
+            document.writeln(`<h${tamaño}>jola, mundo</h${tamaño}>`);
+        }
+
+
+        
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
