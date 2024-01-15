@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+    <script type="text/javascript">
+
+        var resultado;
+
+        function suma( num1, num2){
+            return num1 + num2;
+        }
+
+        document.writeln( suma(7, 10));
+
+
+        var total;
+        var numero1 = 10;
+        var numero2 = 13;
+
+        total = suma(numero1,numero2);
+        document.writeln(total);
+
+        function suma2( num1, num2, num3){
+            return num1 + num2 + num3;
+        }
+        //Tenemos una varible de más;necesitamos añadir un parámtero más en la función de arriba
+        document.writeln(suma2(10,13,4));
+
+        function saludoBienvenida(nombre) {
+            document.writeln("<h1>Bienvenido/a " + nombre + "</h1>")
+        }
+
+        saludoBienvenida("Gala")
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
